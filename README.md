@@ -50,14 +50,14 @@ npm run develop
 
 ## Screenshots
 
-<!-- <br>
-<img src="/src/assets/images/landing.jpg" alt="login page" title="Login Page">
+<br>
+<img src="/assets/javascriptbooksearch.jpg" alt="search page" title="Search Page">
 <br>
 <br>
-<img src="/src/assets/images/projects.jpg" alt="home page" title="Blog Home Page">
+<img src="/assets/savedbooks.jpg" alt="saved books" title="Saved Books">
 <br>
 <br>
-<img src="/src/assets/images/individualproject.jpg" alt="dashboard page" title="Dashboard Page">
+<!-- <img src="/src/assets/images/individualproject.jpg" alt="dashboard page" title="Dashboard Page">
 <br>
 <br>
 <img src="/src/assets/images/contactme.jpg" alt="individual post page" title="Individual Content">
