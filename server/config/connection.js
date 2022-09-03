@@ -2,7 +2,9 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost:27017/googlebooks',
+  mongoose.connect(
+    `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@booksearchengine.hk6ucvm.mongodb.net/?retryWrites=true&w=majorityretry`
+  ) || 'mongodb://localhost:27017/googlebooks',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
