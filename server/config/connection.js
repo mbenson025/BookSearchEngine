@@ -7,7 +7,7 @@ module.exports = {
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        useFindAndModify: false,
+        // useFindAndModify: false,
       }
     );
     await mongoose.set('debug', true);
